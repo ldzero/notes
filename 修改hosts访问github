@@ -1,1 +1,14 @@
 直接修改本地电脑系统hosts文件
+windows:
+C:\Windows\System32\drivers\etc
+linux:
+/etc/hosts
+
+域名解析网址：
+https://www.ipaddress.com/
+查询以下三个网址
+github.com
+
+assets-cdn.github.com
+
+github.global.ssl.fastly.net
