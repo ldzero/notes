@@ -1,0 +1,18 @@
+#将当前目录变成git可以管理的仓库
+git init
+
+#将文件添加到暂存区
+git add filename
+
+#将文件提交到仓库
+git commit
+
+#查看状态
+git status
+
+#比较文件修改内容
+git diff filename
+
+#查看修改历史记录
+git log
+
