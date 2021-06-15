@@ -1,2 +1,3 @@
 #linux下查看cpu架构
 arch
+./configure --prefix  --with；其中--prefix指的是安装路径，--with指的是安装本文件所依赖的库文件
