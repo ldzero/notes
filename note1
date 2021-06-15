@@ -1,3 +1,9 @@
 #linux下查看cpu架构
 arch
-./configure --prefix  --with；其中--prefix指的是安装路径，--with指的是安装本文件所依赖的库文件
+#configure 配置安装目录
+./configure --prefix=/home/bin
+--with；其中--prefix指的是安装路径，--with指的是安装本文件所依赖的库文件
+#暂停进程
+kill -stop pid
+#恢复进程
+kill -CONT pid
