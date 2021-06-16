@@ -9,6 +9,17 @@ kill -stop pid
 kill -CONT pid
 
 
+#ip限制绕过
+Client-Ip: 127.0.0.1
+X-Client-IP: 127.0.0.1
+X-Real-IP: 127.0.0.1
+True-Client-IP: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+X-Forwarded-Host: 127.0.0.1
+
 #or create a new repository on the command line
 echo "# voteCrak" >> README.md
 git init
